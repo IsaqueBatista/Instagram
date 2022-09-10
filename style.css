@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#img-celular{
+    width: 450px;
+}
+
+.container-imagens{
+    position: relative;
+}
+
+.imagem-celular{
+    height: 523px;
+    position: absolute;
+    left: 152px;
+    top: 27px;
+    transition: opacity 1s ease-in-out;
+}
+
+body{
+    background: #FAFAFA;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+
+.insta-logo{
+    margin-bottom: 20px;
+}
+
+.container-itens{
+    width: 350px;
+
+    /* display: flex; */
+}
+
+.container-form{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #dbdbdb;
+    background: #ffffff;
+    padding: 50px 40px 20px;
+}
+
+input{
+    height: 36px;
+    outline: none;
+    border: 1px solid  #dbdbdb;
+    border-radius: 3px;
+    padding-left: 4px;
+    margin-top: 5px;
+    color: #262626;
+}
+
+button{
+    background: #0095f6;
+    height: 30px;
+    border-radius: 3px;
+    border: none;
+    color: #ffffff;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.login-facebook{
+    color: #385185;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.esqueceu-senha{
+    color: #385185;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.container-cadastro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border: 1px solid #dbdbdb;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.link-cadastro{
+    color: #0095f6;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 5px;
+    cursor: pointer;
+    text-decoration: none;    
+}
+
+.paragrafo-conta{
+    font-size: 14px;
+}
+
+.paragrafo-app{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.container-app{
+    display: flex;
+    justify-content: center;
+    gap: 10px ;
+}
+
+.logo-app{
+    width: 150px;
+
+}
